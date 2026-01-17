@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font{
@@ -99,10 +105,56 @@ margin-right: 30px;
   font-weight: 500;
 }
 
+/* feature section style */
+.features-btn img{
+width: 100%;
+}
+.features{
+  gap: 146px;
+}
+.section-tittle{
+  font-weight: 700;
+  font-size: 2.50rem;
+}
+#features-section-tittle{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.features-card .features-tittle-one{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.biger-one{
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.big-text{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.small-text{
+  font-weight: 500;
+  font-size: 1.50rem;
+}
+.biger-one{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 /* responsive media query */
 @media screen and (max-width:576px) {
   .navbar,
   .nav-links,
+  .features,
   .features-section{
     flex-direction: column;
   }
